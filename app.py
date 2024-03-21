@@ -3,7 +3,7 @@ import boto3
 import requests
 import json
 import base64
-import os
+import os.getenv
 from PIL import Image
 from io import BytesIO
 import tornado.web
